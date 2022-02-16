@@ -1,0 +1,32 @@
+1)
+Input data:
+a23sdaA
+
+Desired response:
+a 3
+d 1
+s 1
+
+C++:
++
+2)
+Input data:
+a23sdaA
+Adsgrt345645gbcg
+asd  wq
+
+Desired response:
+a 5
+b 1
+c 1
+d 3
+g 3
+q 1
+r 1
+s 3
+t 1
+w 1
+
+C++:
++
+
