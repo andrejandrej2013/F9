@@ -48,9 +48,11 @@ int main()
     //check if files are open
     if(fin.is_open() and fout.is_open())
     {
+        //read by a char
         char ch;
         while (fin.get(ch))
         {
+            //add char if it is letter
             if (isalpha(tolower(ch)))
             {
                 letter_counter[convert_to_index(ch)]++;
